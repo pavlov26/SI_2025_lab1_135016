@@ -1,0 +1,20 @@
+PS C:\Users\Ivan\Documents\Softversko Inzenerstvo 25\Prva domasna\SI_2025_lab1_135016> git log --oneline --graph --all
+*   0dd3f14 (HEAD -> master, origin/master, origin/HEAD) Merge branch 'master' of https://github.com/pavlov26/SI_2025_lab1_135016
+|\
+| *   3bd3971 Merge pull request #11 from pavlov26/5-filter-tasks-by-category
+| |\
+| | *   744fdab (origin/5-filter-tasks-by-category) Merge branch 'master' into 5-filter-tasks-by-category
+| | |\
+| | |/
+| |/|
+| * |   a94b5d7 Merge pull request #10 from pavlov26/1-remove-a-task-by-name
+| |\ \
+| | * | 323b9ea (origin/1-remove-a-task-by-name, 1-remove-a-task-by-name) Implemented removeTask feature
+| |/ /
+| | * 7532a8e (5-filter-tasks-by-category) Implemented Filter tasks by category feature
+| |/
+* / 90ec201 (origin/9-mark-all-tasks-in-a-category-as-completed, 9-mark-all-tasks-in-a-category-as-completed) Implemented Mark all tasks in a category as completed feature
+|/
+* d6d9188 README.md added new lines with info that was missed before
+* 0b8b94c Add starter code
+* 6b0cb23 Initial commit

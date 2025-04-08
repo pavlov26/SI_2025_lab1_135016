@@ -1,0 +1,32 @@
+git fetch origin // Get all new branches from origin
+git checkout 1-remove-a-task-by-name // Start working on branch 1-..
+git add .\SI2025Lab1Main.java // Add file in staging area
+git commit -m "Implemented removeTask feature" // commit files from staging area
+git push origin // Upload the commit to origin - GitHub online
+git checkout 5-filter-tasks-by-category // Start working on branch 5-..
+git add .\SI2025Lab1Main.java
+git commit -m "Implemented Filter tasks by category feature"
+git push origin
+git checkout 9-mark-all-tasks-in-a-category-as-completed
+git add .\SI2025Lab1Main.java
+git commit -m "Implemented Mark all tasks in a category as completed feature"
+git push origin
+
+20> In first merge - no conflicts
+20> In second merge there is conflict. It was resolved manually by adding my changes and keeping the changes in master branch
+21> Both issues are moved in Done
+22> 
+
+git checkout master // Start working on master branch
+git merge 9-mark-all-tasks-in-a-category-as-completed // merge the branch to master locally
+22> No conflicts on merge
+23> Before git push I need to sync with origin with git pull and resolve the conflicts
+Conflict was resolved manually by adding my changes and keeping the changes from origin
+
+git commit -m "Merge branch master of.."
+git push origin
+
+24> Third issue moved in Done
+git add 135016.txt logs.txt
+git commit -m "Final commit"
+git push origin
